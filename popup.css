@@ -1,0 +1,56 @@
+#definition-popup {
+  position: absolute;
+  background: #252525;
+  color: #FFFFFF;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+  z-index: 999999;
+  font-size: 12px;
+}
+
+.definition-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background: #353535;
+  border-bottom: 1px solid #ddd;
+  border-radius: 8px 8px 0 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #888;
+  font-size: 30px;
+}
+
+.definition-content {
+  padding: 12px 16px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.part-of-speech {
+  font-style: italic;
+  color: #BBB;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.definition-item {
+  margin: 6px 0;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.example {
+  color: #666;
+  font-size: 12px;
+  margin: 4px 0 8px 12px;
+}
