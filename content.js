@@ -91,7 +91,6 @@ async function showDefinitionPopup(word, x, y) {
     const existingElement = document.getElementById("definition-popup");
     if (existingElement) {
         existingElement.remove();
-        console.log("removed existing definition popup");
     }
 
     let pos = getSelectionCoords();
@@ -124,7 +123,6 @@ async function showDefinitionPopup(word, x, y) {
     // We want the window to be above the selected word, unless it would be above
     // the HTML document, then put it underneath.
     if (yPos <= 0) {
-        console.log("out of bounds");
         let padding = 40;
         pos.y = `${pos.y + padding}`;
     } else {
