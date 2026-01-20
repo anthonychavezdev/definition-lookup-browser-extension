@@ -13,3 +13,7 @@ In the search bar:
 - click Developer mode
 - click Load Unpacked
 - Open the repo
+Just make the following changes to `manifest.json`
+```diff
+- "scripts": ["background.js"]
++ "service_worker": "background.js"
