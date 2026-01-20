@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Definition Lookup",
     "version": "1.0",
-    "description": "Have a word's definition appear in a popup window",
+    "description": "Have a word's definition appear in a browser popup window",
     "permissions": ["contextMenus", "activeTab"],
     "background": {
         "scripts": ["background.js"]
