@@ -17,3 +17,6 @@ Just make the following changes to `manifest.json`
 ```diff
 - "scripts": ["background.js"]
 + "service_worker": "background.js"
+```
+# Video
+https://github.com/user-attachments/assets/ec769966-8a98-427f-85e2-a10246e6b260
